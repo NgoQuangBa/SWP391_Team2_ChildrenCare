@@ -50,7 +50,7 @@ public class BlogDAO {
                 list.add(b);
             }
         } catch (SQLException e) {
-            System.out.print(e);
+            System.out.println(e);
         }
         return list;
     }
