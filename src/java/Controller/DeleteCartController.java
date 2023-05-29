@@ -16,10 +16,9 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import Model.Cart;
 import java.util.Map;
-/**
- *
- * @author phanl
- */
+
+
+
 @WebServlet(name = "DeleteCartController", urlPatterns = {"/delete-cart"})
 public class DeleteCartController extends HttpServlet {
 
