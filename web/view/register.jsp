@@ -1,8 +1,4 @@
-<%-- 
-    Document   : register
-    Created on : Mar 2, 2022, 3:22:46 PM
-    Author     : Sown
---%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
