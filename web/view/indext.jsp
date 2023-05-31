@@ -1,8 +1,3 @@
-<%-- 
-    Document   : indext.jsp
-    Created on : Jun 16, 2022, 7:37:27 PM
-    Author     : Admin
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
