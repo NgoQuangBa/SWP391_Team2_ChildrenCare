@@ -1,8 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : Feb 21, 2022, 8:17:31 PM
-    Author     : Sown
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
