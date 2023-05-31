@@ -1,8 +1,4 @@
- <%-- 
-    Document   : result
-    Created on : Jan 14, 2022, 11:40:17 PM
-    Author     : HP
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
