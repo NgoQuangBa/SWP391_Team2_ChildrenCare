@@ -1,14 +1,9 @@
-<%-- 
-    Document   : footer
-    Created on : Mar 9, 2022, 4:49:54 PM
-    Author     : Sown
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-       <head>
-         <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
         <link rel="pingback" href="" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,15 +12,15 @@
             })(document.documentElement);</script>
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>MixiBook - Cửa hàng truyện tranh</title>
+        <title>footer</title>
         <meta name="description" content="Website chính thức của ChildenCare. Dịch vụ chăm sóc sức khỏe trẻ em." />
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ChildenCare - Vì sức khỏe" />
         <meta property="og:description" content="Website chính thức của ChildenCare. Dịch vụ chăm sóc sức khỏe trẻ em." />
         <meta property="og:site_name" content="ChildenCare" />
-        <meta property="article:publisher" content="https://www.facebook.com/Sown.1610" />
-        <meta property="article:modified_time" content="2022-02-15T18:00:51+00:00" />
+        <meta property="article:publisher" content="https://www.facebook.com/quangba2910" />
+        <meta property="article:modified_time" content="2023-05-15T18:00:51+00:00" />
         <meta property="og:image" content="" />
         <meta property="og:image:width" content="960" />
         <meta property="og:image:height" content="960" />
@@ -97,7 +92,9 @@
         <style id='global-styles-inline-css' type='text/css'>
         </style>
         <style id='woocommerce-inline-inline-css' type='text/css'>
-            .woocommerce form .form-row .required { visibility: visible; }
+            .woocommerce form .form-row .required {
+                visibility: visible;
+            }
         </style>
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <link rel='stylesheet' id='flatsome-icons-css'  href='https://shop.mixigaming.com/wp-content/themes/flatsome/assets/css/fl-icons.css' type='text/css' media='all' />
@@ -121,176 +118,387 @@
             }
             gtag('js', new Date());
             gtag('config', 'UA-129718705-2');</script>
-        <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+        <noscript><style>.woocommerce-product-gallery{
+            opacity: 1 !important;
+        }</style></noscript>
         <link rel="icon" href="https://shop.mixigaming.com/wp-content/uploads/2019/06/cropped-logo-mixi-tét-1-32x32.png" sizes="32x32" />
         <link rel="icon" href="https://shop.mixigaming.com/wp-content/uploads/2019/06/cropped-logo-mixi-tét-1-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon" href="https://shop.mixigaming.com/wp-content/uploads/2019/06/cropped-logo-mixi-tét-1-180x180.png" />
         <meta name="msapplication-TileImage" content="https://shop.mixigaming.com/wp-content/uploads/2019/06/cropped-logo-mixi-tét-1-270x270.png" />
-        <style id="custom-css" type="text/css">:root {--primary-color: #0a4da8;}.full-width .ubermenu-nav, .container, .row{max-width: 1310px}.row.row-collapse{max-width: 1280px}.row.row-small{max-width: 1302.5px}.row.row-large{max-width: 1340px}.sticky-add-to-cart--active, #wrapper,#main,#main.dark{background-color: #f0f0f0}.header-main{height: 100px}#logo img{max-height: 100px}#logo{width:151px;}#logo img{padding:4px 0;}.header-bottom{min-height: 50px}.header-top{min-height: 30px}.transparent .header-main{height: 30px}.transparent #logo img{max-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 30px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 75%;}.header-bg-color, .header-wrapper {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #ffffff}.header-main .nav > li > a{line-height: 16px }.header-bottom-nav > li > a{line-height: 30px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #0a4da8;}/* Color !important */[data-text-color="primary"]{color: #0a4da8!important;}/* Background Color */[data-text-bg="primary"]{background-color: #0a4da8;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #0a4da8;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #0a4da8}.nav-tabs > li.active > a{border-top-color: #0a4da8}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #0a4da8 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #0a4da8 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #0a4da8;}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Montserrat", sans-serif}body{font-weight: 0}body{color: #000000}.nav > li > a {font-family:"Montserrat", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Montserrat", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Montserrat", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 0;}h1,h2,h3,h4,h5,h6,.heading-font{color: #000000;}.alt-font{font-family: "Montserrat", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #0a4da8;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #0a4da8;}a{color: #0a4da8;}a:hover{color: #8224e3;}.tagcloud a:hover{border-color: #8224e3;background-color: #8224e3;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.header-main .social-icons,.header-main .cart-icon strong,.header-main .menu-title,.header-main .header-button > .button.is-outline,.header-main .nav > li > a > i:not(.icon-angle-down){color: #000000!important;}.header-main .header-button > .button.is-outline,.header-main .cart-icon strong:after,.header-main .cart-icon strong{border-color: #000000!important;}.header-main .header-button > .button:not(.is-outline){background-color: #000000!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover,.header-main .header-button > .button:hover i,.header-main .header-button > .button:hover span{color:#FFF!important;}.header-main .menu-title:hover,.header-main .social-icons a:hover,.header-main .header-button > .button.is-outline:hover,.header-main .nav > li > a:hover > i:not(.icon-angle-down){color: #000000!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{background-color: #000000!important;}.header-main .current-dropdown .cart-icon strong:after,.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{border-color: #000000!important;}.footer-2{background-color: rgba(22,22,22,0.9)}.absolute-footer, html{background-color: #fafafa}.page-title-small + main .product-container > .row{padding-top:0;}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
+        <style id="custom-css" type="text/css">:root {
+            --primary-color: #0a4da8;
+        }
+        .full-width .ubermenu-nav, .container, .row{
+            max-width: 1310px
+        }
+        .row.row-collapse{
+            max-width: 1280px
+        }
+        .row.row-small{
+            max-width: 1302.5px
+        }
+        .row.row-large{
+            max-width: 1340px
+        }
+        .sticky-add-to-cart--active, #wrapper,#main,#main.dark{
+            background-color: #f0f0f0
+        }
+        .header-main{
+            height: 100px
+        }
+        #logo img{
+            max-height: 100px
+        }
+        #logo{
+            width:151px;
+        }
+        #logo img{
+            padding:4px 0;
+        }
+        .header-bottom{
+            min-height: 50px
+        }
+        .header-top{
+            min-height: 30px
+        }
+        .transparent .header-main{
+            height: 30px
+        }
+        .transparent #logo img{
+            max-height: 30px
+        }
+        .has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{
+            padding-top: 30px;
+        }
+        .header.show-on-scroll,.stuck .header-main{
+            height:70px!important
+        }
+        .stuck #logo img{
+            max-height: 70px!important
+        }
+        .search-form{
+            width: 75%;
+        }
+        .header-bg-color, .header-wrapper {
+            background-color: rgba(255,255,255,0.9)
+        }
+        .header-bottom {
+            background-color: #ffffff
+        }
+        .header-main .nav > li > a{
+            line-height: 16px
+        }
+        .header-bottom-nav > li > a{
+            line-height: 30px
+        }
+        @media (max-width: 549px) {
+            .header-main{
+                height: 70px
+            }
+            #logo img{
+                max-height: 70px
+            }
+        }/* Color */
+        .accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{
+            color: #0a4da8;
+        }/* Color !important */
+        [data-text-color="primary"]{
+            color: #0a4da8!important;
+        }/* Background Color */
+        [data-text-bg="primary"]{
+            background-color: #0a4da8;
+        }/* Background */
+        .scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{
+            background-color: #0a4da8;
+        }/* Border */
+        .nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{
+            border-color: #0a4da8
+        }
+        .nav-tabs > li.active > a{
+            border-top-color: #0a4da8
+        }
+        .widget_shopping_cart_content .blockUI.blockOverlay:before {
+            border-left-color: #0a4da8
+        }
+        .woocommerce-checkout-review-order .blockUI.blockOverlay:before {
+            border-left-color: #0a4da8
+        }/* Fill */
+        .slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{
+            fill: #0a4da8;
+        }
+        body{
+            font-size: 100%;
+        }
+        @media screen and (max-width: 549px){
+            body{
+                font-size: 100%;
+            }
+        }
+        body{
+            font-family:"Montserrat", sans-serif
+        }
+        body{
+            font-weight: 0
+        }
+        body{
+            color: #000000
+        }
+        .nav > li > a {
+            font-family:"Montserrat", sans-serif;
+        }
+        .mobile-sidebar-levels-2 .nav > li > ul > li > a {
+            font-family:"Montserrat", sans-serif;
+        }
+        .nav > li > a {
+            font-weight: 700;
+        }
+        .mobile-sidebar-levels-2 .nav > li > ul > li > a {
+            font-weight: 700;
+        }
+        h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{
+            font-family: "Montserrat", sans-serif;
+        }
+        h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{
+            font-weight: 0;
+        }
+        h1,h2,h3,h4,h5,h6,.heading-font{
+            color: #000000;
+        }
+        .alt-font{
+            font-family: "Montserrat", sans-serif;
+        }
+        .alt-font{
+            font-weight: 0!important;
+        }
+        .header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{
+            color: #0a4da8;
+        }
+        .header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{
+            color:#FFF!important;
+            background-color: #0a4da8;
+        }
+        a{
+            color: #0a4da8;
+        }
+        a:hover{
+            color: #8224e3;
+        }
+        .tagcloud a:hover{
+            border-color: #8224e3;
+            background-color: #8224e3;
+        }
+        @media screen and (min-width: 550px){
+            .products .box-vertical .box-image{
+                min-width: 300px!important;
+                width: 300px!important;
+            }
+        }
+        .header-main .social-icons,.header-main .cart-icon strong,.header-main .menu-title,.header-main .header-button > .button.is-outline,.header-main .nav > li > a > i:not(.icon-angle-down){
+            color: #000000!important;
+        }
+        .header-main .header-button > .button.is-outline,.header-main .cart-icon strong:after,.header-main .cart-icon strong{
+            border-color: #000000!important;
+        }
+        .header-main .header-button > .button:not(.is-outline){
+            background-color: #000000!important;
+        }
+        .header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover,.header-main .header-button > .button:hover i,.header-main .header-button > .button:hover span{
+            color:#FFF!important;
+        }
+        .header-main .menu-title:hover,.header-main .social-icons a:hover,.header-main .header-button > .button.is-outline:hover,.header-main .nav > li > a:hover > i:not(.icon-angle-down){
+            color: #000000!important;
+        }
+        .header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{
+            background-color: #000000!important;
+        }
+        .header-main .current-dropdown .cart-icon strong:after,.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{
+            border-color: #000000!important;
+        }
+        .footer-2{
+            background-color: rgba(22,22,22,0.9)
+        }
+        .absolute-footer, html{
+            background-color: #fafafa
+        }
+        .page-title-small + main .product-container > .row{
+            padding-top:0;
+        }
+        .label-new.menu-item > a:after{
+            content:"New";
+        }
+        .label-hot.menu-item > a:after{
+            content:"Hot";
+        }
+        .label-sale.menu-item > a:after{
+            content:"Sale";
+        }
+        .label-popular.menu-item > a:after{
+            content:"Popular";
+        }</style></head>
     <body>
         <footer id="footer" class="footer-wrapper">
 
-                <div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;"></div>
+            <div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;"></div>
 
-                <section class="section" id="section_1622558052">
-                    <div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+            <section class="section" id="section_1622558052">
+                <div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
 
 
+
+
+
+                </div>
+
+                <div class="section-content relative">
+
+
+                    <div class="row"  id="row-98647434">
+
+
+                        <div id="col-1068653155" class="col medium-6 small-12 large-3 medium-col-first"  >
+                            <div class="col-inner"  >
+
+
+
+                                <div id="gap-1891654759" class="gap-element clearfix" style="display:block; height:auto;">
+
+                                    <style>
+                                        #gap-1891654759 {
+                                            padding-top: 30px;
+                                        }
+                                    </style>
+                                </div>
+
+
+                                <h5>Về chúng tôi</h5>
+                                <p><span style="font-size: 90%;">Website chính thức của ChildenCare. Dịch vụ chăm sóc sức khỏe trẻ em..</span></p>
+
+                            </div>
+                        </div>
+
+
+
+                        <div id="col-1367170307" class="col medium-12 small-12 large-5"  >
+                            <div class="col-inner"  >
+
+
+
+                                <div class="row row-small"  id="row-397936269">
+
+
+                                    <div id="col-1821280017" class="col medium-6 small-12 large-6"  >
+                                        <div class="col-inner"  >
+
+
+
+                                            <div id="gap-393829027" class="gap-element clearfix" style="display:block; height:auto;">
+
+                                                <style>
+                                                    #gap-393829027 {
+                                                        padding-top: 30px;
+                                                    }
+                                                </style>
+                                            </div>
+
+
+
+                                            <div id="gtx-trans" style="position: absolute; left: 22px; top: 180.906px;">
+                                                <div class="gtx-trans-icon"> </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div id="col-1867412971" class="col medium-6 small-12 large-6"  >
+                                        <div class="col-inner"  >
+
+
+
+                                            <div id="gap-1024259630" class="gap-element clearfix" style="display:block; height:auto;">
+
+                                                <style>
+                                                    #gap-1024259630 {
+                                                        padding-top: 30px;
+                                                    }
+                                                </style>
+                                            </div>
+
+
+
+
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div id="col-357492779" class="col medium-6 small-12 large-4 medium-col-first"  >
+                            <div class="col-inner"  >
+
+
+
+                                <div id="gap-1354649098" class="gap-element clearfix" style="display:block; height:auto;">
+
+                                    <style>
+                                        #gap-1354649098 {
+                                            padding-top: 30px;
+                                        }
+                                    </style>
+                                </div>
+
+
+                                <h5>Hỗ trợ</h5>
+                                <p><span style="font-size: 90%;">Mọi thắc mắc và góp ý cần hỗ trợ xin vui lòng liên hệ Fanpage và Instagram</span></p>
+                                <div class="social-icons follow-icons" style="font-size:70%"><a href="https://www.facebook.com/quangba2910" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon primary button circle facebook tooltip" title="Follow on Facebook"><i class="fab fa-facebook-f" ></i></a>
+                                    <a href="https://www.instagram.com/_nq.ba_/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon primary button circle  instagram tooltip" title="Follow on Instagram"><i class="fab fa-instagram" ></i></a></div>
+
+
+                            </div>
+                        </div>
 
 
 
                     </div>
 
-                    <div class="section-content relative">
+                </div>
 
 
-                        <div class="row"  id="row-98647434">
+                <style>
+                    #section_1622558052 {
+                        padding-top: 0px;
+                        padding-bottom: 0px;
+                        background-color: rgb(250, 250, 250);
+                    }
+                </style>
+            </section>
 
+            <div class="text-center"><div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:80%;height:1px;"></div></div>
+            <div class="absolute-footer light medium-text-center small-text-center">
+                <div class="container clearfix">
 
-                            <div id="col-1068653155" class="col medium-6 small-12 large-3 medium-col-first"  >
-                                <div class="col-inner"  >
-
-
-
-                                    <div id="gap-1891654759" class="gap-element clearfix" style="display:block; height:auto;">
-
-                                        <style>
-                                            #gap-1891654759 {
-                                                padding-top: 30px;
-                                            }
-                                        </style>
-                                    </div>
-
-
-                                    <h5>Về chúng tôi</h5>
-                                    <p><span style="font-size: 90%;">Website chính thức của ChildenCare. Dịch vụ chăm sóc sức khỏe trẻ em..</span></p>
-
-                                </div>
-                            </div>
-
-
-
-                            <div id="col-1367170307" class="col medium-12 small-12 large-5"  >
-                                <div class="col-inner"  >
-
-
-
-                                    <div class="row row-small"  id="row-397936269">
-
-
-                                        <div id="col-1821280017" class="col medium-6 small-12 large-6"  >
-                                            <div class="col-inner"  >
-
-
-
-                                                <div id="gap-393829027" class="gap-element clearfix" style="display:block; height:auto;">
-
-                                                    <style>
-                                                        #gap-393829027 {
-                                                            padding-top: 30px;
-                                                        }
-                                                    </style>
-                                                </div>
-
-
-                                                
-                                                <div id="gtx-trans" style="position: absolute; left: 22px; top: 180.906px;">
-                                                    <div class="gtx-trans-icon"> </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-
-
-                                        <div id="col-1867412971" class="col medium-6 small-12 large-6"  >
-                                            <div class="col-inner"  >
-
-
-
-                                                <div id="gap-1024259630" class="gap-element clearfix" style="display:block; height:auto;">
-
-                                                    <style>
-                                                        #gap-1024259630 {
-                                                            padding-top: 30px;
-                                                        }
-                                                    </style>
-                                                </div>
-
-
-                                                
-
-
-                                            </div>
-                                        </div>
-
-
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-
-                            <div id="col-357492779" class="col medium-6 small-12 large-4 medium-col-first"  >
-                                <div class="col-inner"  >
-
-
-
-                                    <div id="gap-1354649098" class="gap-element clearfix" style="display:block; height:auto;">
-
-                                        <style>
-                                            #gap-1354649098 {
-                                                padding-top: 30px;
-                                            }
-                                        </style>
-                                    </div>
-
-
-                                    <h5>Hỗ trợ</h5>
-                                    <p><span style="font-size: 90%;">Mọi thắc mắc và góp ý cần hỗ trợ xin vui lòng liên hệ Fanpage và Instagram</span></p>
-                                    <div class="social-icons follow-icons" style="font-size:70%"><a href="https://www.facebook.com/Sown.1610" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon primary button circle facebook tooltip" title="Follow on Facebook"><i class="fab fa-facebook-f" ></i></a>
-                                        <a href="https://www.instagram.com/sown.1610/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon primary button circle  instagram tooltip" title="Follow on Instagram"><i class="fab fa-instagram" ></i></a></div>
-
-
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
+                    <div class="footer-secondary pull-right">
+                        <div class="footer-text inline-block small-block">
+                            <a href="img/logo fpt new.png"  class="dmca-badge"> <img src ="img/logo fpt new.png"  width="250px" /></a>            </div>
                     </div>
 
-
-                    <style>
-                        #section_1622558052 {
-                            padding-top: 0px;
-                            padding-bottom: 0px;
-                            background-color: rgb(250, 250, 250);
-                        }
-                    </style>
-                </section>
-
-                <div class="text-center"><div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:80%;height:1px;"></div></div>
-                <div class="absolute-footer light medium-text-center small-text-center">
-                    <div class="container clearfix">
-
-                        <div class="footer-secondary pull-right">
-                            <div class="footer-text inline-block small-block">
-                                <a href="img/logo fpt new.png"  class="dmca-badge"> <img src ="img/logo fpt new.png"  width="250px" /></a>            </div>
-                        </div>
-
-                        <div class="footer-primary pull-left">
-                            <div class="copyright-footer">
-                                Copyright 2022 © <strong>ChildenCare</strong>      </div>
-                        </div>
+                    <div class="footer-primary pull-left">
+                        <div class="copyright-footer">
+                            Copyright 2022 © <strong>ChildenCare</strong>      </div>
                     </div>
                 </div>
-                <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline round hide-for-medium" id="top-link"><i class="fas fa-arrow-circle-up" ></i></a>
+            </div>
+            <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline round hide-for-medium" id="top-link"><i class="fas fa-arrow-circle-up" ></i></a>
 
-            </footer>
+        </footer>
     </body>
-    
+
 </html>
