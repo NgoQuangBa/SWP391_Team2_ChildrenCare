@@ -1,12 +1,3 @@
-<%-- 
-    Document   : login
-<<<<<<< Updated upstream
-    Created on : Feb 28, 2022, 3:20:34 PM
-=======
-    Created on : May 26, 2022, 3:20:34 PM
->>>>>>> Stashed changes
-    Author     : LeHaNam
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
