@@ -43,7 +43,7 @@ public class ViewController extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Servlet ViewController at " + request.getContextPath() + "</h1>");
             out.println("</body>");
-            out.print("</html>");
+            out.println("</html>");
         }
     }
 
