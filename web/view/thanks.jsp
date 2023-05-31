@@ -33,7 +33,7 @@
         <script type="text/javascript">
 <!--
             function delayer() {
-                window.location = "http://localhost:8080/ChildrenCareMoimoi/services"
+                 window.location = "http://localhost:9999/ChildCare/services"
             }
 //-->
         </script>
