@@ -1,8 +1,3 @@
-<%-- 
-    Document   : editSlider
-    Created on : Jul 10, 2022, 7:44:12 PM
-    Author     : BEAN
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
