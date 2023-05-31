@@ -1,8 +1,3 @@
-<%-- 
-    Document   : blogDetails
-    Created on : Jul 14, 2022, 5:17:21 PM
-    Author     : BEAN
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%><!DOCTYPE html>
 <html lang="en">
