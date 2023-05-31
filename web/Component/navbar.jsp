@@ -1,8 +1,3 @@
-<%-- 
-    Document   : navbar
-    Created on : Mar 9, 2022, 4:43:58 PM
-    Author     : Sown
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
