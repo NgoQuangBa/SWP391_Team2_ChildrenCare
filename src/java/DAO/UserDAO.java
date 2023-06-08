@@ -540,7 +540,7 @@ public class UserDAO {
         List<User> list = new ArrayList();
         list = dao.getUsersBySearch("Admin", 1, 4);
         for (User user : list) {
-            System.out.print(user);
+            System.out.println(user);
         }
     }
 
