@@ -14,10 +14,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Admin
- */
+
 public class CustomerDAO {
 
     public static void main(String[] args) {
