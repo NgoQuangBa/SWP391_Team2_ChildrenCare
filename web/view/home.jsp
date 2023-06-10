@@ -105,7 +105,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="home.jsp" class="nav-item nav-link active">Home</a>
                 <a href="about.jsp" class="nav-item nav-link">About</a>
-                <a href="/services" class="nav-item nav-link">Service</a>
+                <a href="services.jsp" class="nav-item nav-link">Service</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
