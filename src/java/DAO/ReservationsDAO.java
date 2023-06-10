@@ -18,10 +18,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author fannaby
- */
 public class ReservationsDAO {
 
     public int createReturnId(Reservation rsv) {
