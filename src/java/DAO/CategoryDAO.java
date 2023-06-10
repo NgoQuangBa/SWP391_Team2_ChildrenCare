@@ -19,24 +19,7 @@ import java.util.logging.Logger;
  *
  * @author Sown
  */
-public class CategoryDAO {
 
-    public List<ServiceCategory> getAllCategory() {
-        List<ServiceCategory> list = new ArrayList<>();
-        try {
-            String sql = "SELECT * from ServiceCategories";
-            Connection conn = new DBContext().getConnection();
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                ServiceCategory c = ServiceCategory.builder().categoryID(rs.getInt(1)).categoryName(rs.getString(3)).categoryDetail(rs.getString(2)).build();
-                list.add(c);
-            }
-        } catch (Exception ex) {
-            Logger.getLogger(CategoryDAO.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return list;
-    }
 
     public ServiceCategory getCategorybyID(int sid) {
         try {
