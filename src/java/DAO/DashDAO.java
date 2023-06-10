@@ -15,10 +15,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Admin
- */
+
 public class DashDAO extends DBContext{
 
     public List<User> getAlluser()throws SQLException,Exception{
