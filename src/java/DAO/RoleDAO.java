@@ -14,10 +14,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Dan Chen
- */
+
 public class RoleDAO {
 
     public List<Role> getAllRoles() {

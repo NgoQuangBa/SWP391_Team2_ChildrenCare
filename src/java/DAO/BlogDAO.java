@@ -17,10 +17,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Admin
- */
 public class BlogDAO {
 
     public static void main(String[] args) throws Exception {

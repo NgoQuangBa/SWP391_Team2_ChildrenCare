@@ -23,10 +23,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Fannaby
- */
+
 public class ReservationDetailDAO {
 
     public void saveCart(int rsvId, Map<Integer, Cart> carts, String date, String status, int childId) {

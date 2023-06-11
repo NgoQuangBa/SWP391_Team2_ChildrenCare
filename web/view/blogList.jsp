@@ -86,7 +86,7 @@
                 <div class="col-md-6 text-center text-lg-end">
                     <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                         <div class="me-3 pe-3 border-end py-2">
-                            <p class="m-0"><i class="fa fa-envelope-open me-2"></i>thanhnhhe150191@fpt.edu.vn</p>
+                            <p class="m-0"><i class="fa fa-envelope-open me-2"></i>childrencare@fpt.edu.vn</p>
                         </div>
                         <div class="py-2">
                             <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
@@ -99,7 +99,7 @@
 
 
         <!-- Navbar Start -->
-        <!--        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+               <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
                     <a href="index.html" class="navbar-brand p-0">
                         <h1 class="m-0 text-primary"></i>Children Care</h1>
                     </a>
@@ -126,7 +126,7 @@
                                 class="fa fa-search"></i></button>
                         <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
                     </div>
-                </nav>-->
+                </nav>
         <header id="header" class="header has-sticky sticky-jump">
 
             <%@include file="../Component/navbar.jsp" %>         

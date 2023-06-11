@@ -14,10 +14,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-/**
- *
- * @author Admin
- */
+
 public class FeedbackDAO {
 
     public void insertFeedback(int sid, int cid, String detail, String rate, String img) {

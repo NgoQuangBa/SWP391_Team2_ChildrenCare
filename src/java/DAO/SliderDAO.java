@@ -15,10 +15,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author BEAN
- */
+
 public class SliderDAO {
 
     public static void main(String[] args) throws Exception {
