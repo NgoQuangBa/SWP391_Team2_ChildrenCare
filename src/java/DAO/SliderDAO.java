@@ -206,7 +206,7 @@ public class SliderDAO {
                 list.add(s);
             }
         } catch (SQLException e) {
-            System.out.println(e);
+            System.out.print(e);
         }
 
         return list;
