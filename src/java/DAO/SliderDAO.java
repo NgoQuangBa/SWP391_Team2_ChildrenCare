@@ -203,7 +203,7 @@ public class SliderDAO {
                 list.add(s);
             }
         } catch (SQLException e) {
-            System.out.print(e);
+            System.out.println(e);
         }
 
         return list;
