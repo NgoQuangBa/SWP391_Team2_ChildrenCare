@@ -4,85 +4,40 @@
  * and open the template in the editor.
  */
 package DAO;
-
-import Context.DBContext;
-import Model.ServiceCategory;
+import context.DBContext;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import model.category;
+import model.service;
 
+
+/**
+ *
+ * @author win
+ */
 public class CategoryDAO {
-
-    public List<ServiceCategory> getAllCategory() {
-        List<ServiceCategory> list = new ArrayList<>();
+    public List<category> getAllCategory() {
+        List<category> list = new ArrayList<>();
         try {
-            String sql = "SELECT * from ServiceCategories";
             Connection conn = new DBContext().getConnection();
+            String sql = "select * from [category]";
             PreparedStatement ps = conn.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                ServiceCategory c = ServiceCategory.builder().categoryID(rs.getInt(1)).categoryName(rs.getString(3)).categoryDetail(rs.getString(2)).build();
-                list.add(c);
+                 category cate = new category(rs.getInt("category_id"), rs.getString("category_name"), rs.getString("icon"));
+                 list.add(cate);
             }
-        } catch (Exception ex) {
-            Logger.getLogger(CategoryDAO.class.getName()).log(Level.SEVERE, null, ex);
+            return list;
+        } catch (Exception e) {
         }
-        return list;
-    }
-
-    public ServiceCategory getCategorybyID(int sid) {
-        try {
-            Connection conn = new DBContext().getConnection();
-            String sql = "SELECT * FROM Services s inner join ServiceCategories c\n"
-                    + "on c.CategoryID = s.CategoryID where s.ServiceID = ?";
-
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setInt(1, sid);
-            ResultSet rs = ps.executeQuery();
-
-            while (rs.next()) {
-                ServiceCategory c = ServiceCategory.builder()
-                        .categoryID(rs.getInt(1))
-                        .categoryName(rs.getString(2))
-                        .categoryDetail(rs.getString(3))
-                        .build();
-                return c;
-            }
-
-        } catch (Exception ex) {
-            Logger.getLogger(CategoryDAO.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
         return null;
     }
-    public ServiceCategory getCategoryNamebyID(int id) {
-        try {
-            Connection conn = new DBContext().getConnection();
-            String sql = "SELECT * FROM ServiceCategories where CategoryID = ?";
-
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setInt(1, id);
-            ResultSet rs = ps.executeQuery();
-
-            while (rs.next()) {
-                ServiceCategory c = ServiceCategory.builder()
-                        .categoryID(rs.getInt(1))
-                        .categoryName(rs.getString(3))
-                        .categoryDetail(rs.getString(2))
-                        .build();
-                return c;
-            }
-
-        } catch (Exception ex) {
-            Logger.getLogger(CategoryDAO.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-        return null;
+    public static void main(String[] args) {
+        CategoryDAO ser = new CategoryDAO();
+        List<category> list = ser.getAllCategory();
+        System.out.println(list.get(0).getCategory_id());
     }
 }
-
-
