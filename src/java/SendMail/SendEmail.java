@@ -77,7 +77,25 @@ public class SendEmail {
                 }
             });
 
-          
+            //set email message details
+            Message mess = new MimeMessage(session);
+
+            //set from email address
+            mess.setFrom(new InternetAddress(fromEmail));
+            //set to email address or destination email address
+            mess.setRecipient(Message.RecipientType.TO, new InternetAddress(toEmail));
+
+            //set email subject
+            mess.setSubject("User Email Verification");
+            String text = "";
+            text = text1;
+            mess.setText(text);
+            //send the message
+            Transport.send(mess);
+            test = true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return test;
     }
 }
