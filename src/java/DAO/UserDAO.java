@@ -554,7 +554,7 @@ public class UserDAO {
             st.setInt(2, id);
             st.executeUpdate();
         } catch (Exception e) {
-            System.out.print(e);
+            System.out.println(e);
         }
     }
 }
