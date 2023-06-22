@@ -205,7 +205,7 @@
             </section><!-- End Breadcrumbs Section -->
         </main><!-- End #main -->
 
-        <!-- ======= Footer ======= -->
+        <!-- ====== Footer ====== -->
         <jsp:include page="assets/module/footer.jsp" flush="true"/>
         <!-- End Footer -->
 
