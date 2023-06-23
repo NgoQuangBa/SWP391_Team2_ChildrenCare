@@ -616,19 +616,11 @@
 
             <div class="sidebar">
 
-              <div class="sidebar-item search-form">
-                  <h3 class="sidebar-title" >Search</h3>
-                <form action="blogs-list" class="mt-3">
-                    <input name="txt" type="text" style="border: 1px solid;">
-                  <button type="submit"><i class="bi bi-search"></i></button>
-                </form>
-              </div><!-- End sidebar search formn-->
-
               <div class="sidebar-item categories">
                 <h3 class="sidebar-title">Categories</h3>
                 <ul class="mt-3">
                     <c:forEach items="${listCate}" var="i">
-                        <li><a href="blogs-list?cid=${i.category_id}">${i.category_name} <span>(${listQuantity.get(i.category_id-1)})</span></a></li>
+                        <li><a href="blogs-list?cid=${i.category_id}">${i.category_name}</a></li>
                     </c:forEach>
                   
                 </ul>

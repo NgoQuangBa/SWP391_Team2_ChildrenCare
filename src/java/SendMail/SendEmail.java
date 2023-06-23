@@ -12,15 +12,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import model.user;
 
-public class SendEmail {
-
-    public String getRandom() {
-        Random rnd = new Random();
-        int number = rnd.nextInt(999999);
-        return String.format("%06d", number);
-    }
-
-    public String getRandomString() {
+public String getRandomString() {
         // create a string of all characters
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -49,6 +41,15 @@ public class SendEmail {
         String randomString = sb.toString();
         return randomString;
     }
+public class SendEmail {
+
+    public String getRandom() {
+        Random rnd = new Random();
+        int number = rnd.nextInt(999999);
+        return String.format("%06d", number);
+    }
+
+   
 
     //send email to the user email
     public boolean sendEmail(user user, String text1) {
