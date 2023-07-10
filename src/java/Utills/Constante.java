@@ -15,6 +15,6 @@ public class Constance {
     /**
      * setup gửi gmail
      */
-    final public static String SENDGMAIL_TK = "nguyenhoangkien23071995@gmail.com";
-    final public static String SENDGMAIL_MK = "wtjfxchwzbwcabrx";
+    final public static String SENDGMAIL_TK = "banqhe161232@fpt.edu.vn";
+    final public static String SENDGMAIL_MK = "onjhtmuhkssjqphb";
 }
