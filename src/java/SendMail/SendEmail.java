@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package SendEmail;
 
 import Utills.Constance;
@@ -12,7 +17,15 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import model.user;
 
-public String getRandomString() {
+public class SendEmail {
+
+    public String getRandom() {
+        Random rnd = new Random();
+        int number = rnd.nextInt(999999);
+        return String.format("%06d", number);
+    }
+
+    public String getRandomString() {
         // create a string of all characters
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -41,15 +54,6 @@ public String getRandomString() {
         String randomString = sb.toString();
         return randomString;
     }
-public class SendEmail {
-
-    public String getRandom() {
-        Random rnd = new Random();
-        int number = rnd.nextInt(999999);
-        return String.format("%06d", number);
-    }
-
-   
 
     //send email to the user email
     public boolean sendEmail(user user, String text1) {
@@ -68,7 +72,6 @@ public class SendEmail {
             pr.setProperty("mail.smtp.auth", "true");
             pr.setProperty("mail.smtp.starttls.enable", "true");
             pr.put("mail.smtp.socketFactory.port", "587");
-            pr.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
 
             //get session to authenticate the host email address and password
             Session session = Session.getInstance(pr, new Authenticator() {
