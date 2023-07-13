@@ -511,7 +511,6 @@
                 </div>
             </div>
         </div>
-
         <!-- ======= Header ======= -->
         <jsp:include page="assets/module/header.jsp" flush="true"/>
         <!-- End Header -->

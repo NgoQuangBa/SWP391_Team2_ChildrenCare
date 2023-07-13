@@ -15,9 +15,9 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import model.user;
+import model.UserRegister;
 
-public class SendEmail {
+public class SendEmailRegister {
 
     public String getRandom() {
         Random rnd = new Random();
@@ -25,41 +25,11 @@ public class SendEmail {
         return String.format("%06d", number);
     }
 
-    public String getRandomString() {
-        // create a string of all characters
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-        // create random string builder
-        StringBuilder sb = new StringBuilder();
-
-        // create an object of Random class
-        Random random = new Random();
-
-        // specify length of random string
-        int length = 7;
-
-        for (int i = 0; i < length; i++) {
-
-            // generate random index number
-            int index = random.nextInt(alphabet.length());
-
-            // get character specified by index
-            // from the string
-            char randomChar = alphabet.charAt(index);
-
-            // append the character to string builder
-            sb.append(randomChar);
-        }
-
-        String randomString = sb.toString();
-        return randomString;
-    }
-
     //send email to the user email
-    public boolean sendEmail(user user, String text1) {
+    public boolean sendEmail(UserRegister user, String text) {
         boolean test = false;
 
-        String toEmail = user.getUser_email();
+        String toEmail = user.getEmail();
         String fromEmail = Constance.SENDGMAIL_TK;
         String password = Constance.SENDGMAIL_MK;
 
@@ -91,15 +61,18 @@ public class SendEmail {
 
             //set email subject
             mess.setSubject("User Email Verification");
-            String text = "";
-            text = text1;
+
+            //set message text
             mess.setText(text);
-            //send the message
+            //send the 
             Transport.send(mess);
+
             test = true;
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return test;
     }
 }
