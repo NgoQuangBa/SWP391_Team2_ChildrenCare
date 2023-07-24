@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package DAO;
 
 import context.DBContext;
@@ -96,6 +101,24 @@ public class ReservationDAO {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 int n = rs.getInt("ThanhCong");
+                return n;
+            }
+
+        } catch (Exception e) {
+        }
+        return 0;
+    }
+    
+    public int CountReservationFailByStatus(int id) {
+
+        try {
+            Connection conn = new DBContext().getConnection();
+            String sql = "select COUNT(*) as 'ThatBai' from reservation where reservation_status = ?";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                int n = rs.getInt("ThatBai");
                 return n;
             }
 
