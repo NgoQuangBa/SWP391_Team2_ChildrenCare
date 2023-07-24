@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controller.staff;
 
 import DAO.ReservationDAO;
@@ -19,10 +14,7 @@ import model.reservation;
 import model.reservationlist;
 import model.user;
 
-/**
- *
- * @author win
- */
+
 public class CancelReservationServlet extends HttpServlet {
 
     /**
